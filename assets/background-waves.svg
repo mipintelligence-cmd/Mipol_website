@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="brand-flow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#007f70"/>
+      <stop offset=".34" stop-color="#00a98f"/>
+      <stop offset=".67" stop-color="#00b99a"/>
+      <stop offset="1" stop-color="#a1f0d8"/>
+    </linearGradient>
+    <linearGradient id="brand-mist" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#dff7f0"/>
+      <stop offset=".52" stop-color="#a1f0d8"/>
+      <stop offset="1" stop-color="#dff7f0"/>
+    </linearGradient>
+    <linearGradient id="edge-fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity=".88"/>
+      <stop offset=".03" stop-color="#fff" stop-opacity=".58"/>
+      <stop offset=".07" stop-color="#fff" stop-opacity=".22"/>
+      <stop offset=".12" stop-color="#fff" stop-opacity=".05"/>
+      <stop offset=".2" stop-color="#fff" stop-opacity=".015"/>
+      <stop offset=".8" stop-color="#fff" stop-opacity=".015"/>
+      <stop offset=".88" stop-color="#fff" stop-opacity=".05"/>
+      <stop offset=".93" stop-color="#fff" stop-opacity=".22"/>
+      <stop offset=".97" stop-color="#fff" stop-opacity=".58"/>
+      <stop offset="1" stop-color="#fff" stop-opacity=".88"/>
+    </linearGradient>
+    <radialGradient id="soft-glow">
+      <stop offset="0" stop-color="#a1f0d8" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#00b99a" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="edge-mask">
+      <rect width="1600" height="1000" fill="url(#edge-fade)"/>
+    </mask>
+  </defs>
+  <g mask="url(#edge-mask)">
+    <path d="M0 0h1600v188c-200 87-364 93-558 28C812 145 650 117 463 177 282 235 144 318 0 260Z" fill="url(#brand-mist)" opacity=".92"/>
+    <path d="M0 82c180 93 344 102 528 40 191-64 356-69 559-7 197 61 354 50 513-20v92c-174 69-329 77-537 12-200-63-352-61-535 0-202 67-370 53-528-26Z" fill="url(#brand-flow)" opacity=".78"/>
+    <ellipse cx="1160" cy="145" rx="420" ry="138" fill="url(#soft-glow)" opacity=".82"/>
+    <path d="M0 1000h1600V830c-206-79-387-66-578 11-215 87-406 143-627 66C230 872 112 785 0 818Z" fill="url(#brand-mist)" opacity=".92"/>
+    <path d="M0 918c164-75 326-87 514-27 205 66 368 61 566-15 203-78 353-89 520-28v88c-170-63-323-51-523 26-203 78-372 84-588 13-181-60-333-48-489 24Z" fill="url(#brand-flow)" opacity=".74"/>
+    <ellipse cx="390" cy="866" rx="440" ry="136" fill="url(#soft-glow)" opacity=".78"/>
+    <path d="M0 260c144 58 282-25 463-83 187-59 349-23 579 51 194 63 358 59 558-27" fill="none" stroke="#003f39" stroke-width="2.5" opacity=".48"/>
+    <path d="M0 818c113-33 230 54 395 109 221 74 412 21 627-66 191-77 372-90 578-11" fill="none" stroke="#003f39" stroke-width="2.5" opacity=".44"/>
+  </g>
+</svg>
